@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'lemon',sans-serif;
+  height: 100%;
+
+}
+.container{
+  width: 100%;
+  min-height: 100%;
+
+}
+
+.outter--container{
+  padding: 0 50px 100px;
+  min-height: 100%;
+}
+
+img{
+  width: 30%;
+  display: block;
+  margin:40px auto;
+}
+
+.hidden{
+  display: none;
+}
+
+button{
+  font-family: 'lemon',sans-serif;
+  font-size: 1.3rem;
+  color: white;
+  background: #46D4FF;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.next--btn{
+  position: absolute;
+  right: 55px;
+  border-radius: 5px;
+}
+
+.timer--start{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items:center;
+  gap: 0.2rem;
+}
+
+.countdown--timer{
+text-align: center;
+font-size: 1.2rem;
+color: #46D4FF;
+vertical-align: middle;
+}
+
+.start--btn{
+width: 100px;
+font-size: 1rem;
+border-radius: 10px;
+}
+
+.end--el{
+  text-align: center;
+  font-size: 4rem;
+  color: #46D4FF;
+}
+
+/* .footer{
+  text-align: center;
+  background-color:#46D4FF;
+  color:white;
+  position: relative;
+  margin-top:-90px;
+  font-size: 0.8rem;
+} */
